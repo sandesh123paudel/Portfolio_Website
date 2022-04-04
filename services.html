@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sandesh Paudel- Web Developer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="index.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar"> 
+			<nav>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/intro.html">My Intro</a></li>
+					<li><a href="/services.html">Services</a></li>
+					<li><a href="/cv.html">CV</a></li>
+					<li><a href="/blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
+
+				</ul>
+			</nav>
+		</div>
+		<div class="main">
+			<div class="box">
+				<h2>get in touch with us</h2>
+				<div id="error_message"></div>
+				<form id="myform" onsubmit="return validation()">
+					<div class="input_field"> 
+						<input type="text"  placeholder="Name" id="name">
+					</div>
+	
+					<div class="input_field"> 
+						<input type="text"  placeholder="Address" id="address">
+					</div>
+	
+					 
+	
+					<div class="input_field"> 
+						<input type="text"  placeholder="Phone Number" id="phone">
+					</div>
+	
+					
+	
+					<div class="input_field"> 
+						<input type="text"  placeholder="Email Address" id="email">
+					</div>
+	
+					<div class="input_field"> 
+						<textarea id="message"  placeholder="Message"></textarea>
+					</div>
+					<div class="mb-3 form-check">
+						<input type="checkbox" class="form-check-input" id="isClient">
+						<label class="form-check-label" for="isClient">I want you to work on a project with me.</label>
+
+					</div>
+	
+					<div class="btn">
+						<input type="submit" name="Submit">
+					</div>
+	
+	
+	
+				</form>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
