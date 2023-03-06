@@ -123,7 +123,7 @@ header {
 .potrait-bg {
 	width: 100%;
 	height: auto;
-	background: linear-gradient(rgba(0,0,0,0.19),rgba(0,0,0,0.3)),url("https://images.pexels.com/photos/4585185/pexels-photo-4585185.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-5380635.jpg&fm=jpg");background-size: cover;
+	background: linear-gradient(rgba(0,0,0,0.19),rgba(0,0,0,0.3)),url("2.jpg&fm=jpg");background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;	
 	overflow: hidden;
