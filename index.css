@@ -477,7 +477,11 @@ grid-auto-rows: auto;
 		position: relative;
 	}
 
+<<<<<<< HEAD
 	.about-section .my-skill .css-bar {
+=======
+	.about-section .my-skill .design-bar {
+>>>>>>> master
 		width: 80%;
 		animation: slide 15s ease;
 		background: #d4fc78!important
@@ -500,14 +504,22 @@ grid-auto-rows: auto;
 			width: 55%;
 		}
 	}
+<<<<<<< HEAD
 	.about-section .my-skill .css-bar:after {
+=======
+	.about-section .my-skill .design-bar:after {
+>>>>>>> master
 		position: absolute;
 		top: -25px;
 		right: 0;
 		content: "80%";
 		display: inline-block;
 	}
+<<<<<<< HEAD
 	.about-section .my-skill .css-bar:before,.about-section .my-skill .html-bar:before,.about-section .my-skill .js-bar:before{
+=======
+	.about-section .my-skill .design-bar:before,.about-section .my-skill .frontend-bar:before,.about-section .my-skill .backend-bar:before{
+>>>>>>> master
 		content: "";
 		display: inline-block;
 		height: 14px;
@@ -517,12 +529,20 @@ grid-auto-rows: auto;
 		border-radius: 50%;
 		top: -4px
 	}
+<<<<<<< HEAD
 	.about-section .my-skill .html-bar {
+=======
+	.about-section .my-skill .frontend-bar {
+>>>>>>> master
 		width: 95%;
 		animation: slide1 15s ease;
 		background: #41d8dd!important
 	}
+<<<<<<< HEAD
 .about-section .my-skill .html-bar:after {
+=======
+.about-section .my-skill .frontend-bar:after {
+>>>>>>> master
 		position: absolute;
 		top: -25px;
 		right: 0;
@@ -530,17 +550,26 @@ grid-auto-rows: auto;
 		display: inline-block;
 	}
 
+<<<<<<< HEAD
 	.about-section .my-skill .js-bar {
 		width: 55%;
 		animation: slide2 15s ease;
 	}
 	.about-section .my-skill .js-bar:after {
+=======
+	.about-section .my-skill .backend-bar {
+		width: 55%;
+		animation: slide2 15s ease;
+	}
+	.about-section .my-skill .backend-bar:after {
+>>>>>>> master
 		position: absolute;
 		top: -25px;
 		right: 0;
 		content: "55%";
 		display: inline-block;
 	}
+<<<<<<< HEAD
 	.about-section .my-skill .css-bar:before{
 		background: #d4fc78
 	}
@@ -548,6 +577,15 @@ grid-auto-rows: auto;
 		background: #41d8dd
 	}
 	.about-section .my-skill .js-bar:before{
+=======
+	.about-section .my-skill .design-bar:before{
+		background: #d4fc78
+	}
+	.about-section .my-skill .frontend-bar:before{
+		background: #41d8dd
+	}
+	.about-section .my-skill .backend-bar:before{
+>>>>>>> master
 		background: var(--main-color)
 	}
 
